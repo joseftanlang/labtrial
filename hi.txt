@@ -1,1 +1,1 @@
-print("hello world")
+print("dcpe how r u")
