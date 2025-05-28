@@ -1,0 +1,36 @@
+*LAB1*
+cd <new folder’s path>
+mkdir <name of new directory for new Git repository>
+git init 
+git commit - m "added a new file (name of file)"
+git add" it will be allocated into the git repo
+git status
+git diff = compare the before and after the adding of it and before commit
+git branch = to check how many branches
+git branch <new branch name> = add new branches
+git branch -d <branch want to delete> = delete the branches that you dont want
+git checkout or git switch = switch the branches that you want to use
+git merge <branch to be merged> = current branch and other branch that you want to merge together
+git fetch = fetch the code from the GitHub
+git push = push the code from computer to GitHub once done (must commit and add all first)
+git pull = pull the origin of the GitHub
+git remote add origin <GitHub repository URL from Step 5.5> = the remote adding of GitHub directly
+git push --set-upstream origin (branch) = push the code from the computer to the GitHub branch accordingly
+git push -u origin 
+git tag -a (name) -m "Initial release (name)" example v1.0 (git tag –a v1.0 –m "Initial release v1.0" )
+git push origin (name)
+git clone <URL of repository to clone> 
+git log = logs behind the code that you have done it
+git remote –v = options for git to show different output like fetch and push
+git remote set-url origin {URL}
+
+
+
+*LAB2*
+
+
+*Lab3*
+Using PyTest, we use the keyword “assert( … )” to evaluate the return value of a Python function with the expected value/s returned by the function under test. 
+would need to use pytest (configure pytest) then pytest framework than root directory
+make sure in settings that pytest is enable
+
